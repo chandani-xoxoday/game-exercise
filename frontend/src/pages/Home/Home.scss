@@ -1,0 +1,100 @@
+.game-container {
+  margin: 10px auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  p {
+    color: #776e65;
+  }
+
+  small {
+      color: #d2232a;
+  }
+
+  .stats {
+    float: right;
+    text-align: right;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .score {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    background: #34a853;
+    padding: 15px 25px;
+    border-radius: 3px;
+    color: #fff;
+    margin: 8px;
+  }
+
+  .attempts {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    background-color: #fbbc05;
+    padding: 15px 25px;
+    border-radius: 3px;
+    color: #fff;
+    margin: 8px;
+  }
+
+  .my-filter {
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.3;
+    width: 322px;
+    height: 182px;
+    display: none;
+  }
+
+  .my-restartbutton {
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 120px;
+    display: none;
+  }
+
+  .btn-ctrl {
+    text-align: center;
+    width: 320px;
+    button {
+      margin: 2px;
+      width: 60px;
+      border-radius: 2px;
+      cursor: pointer;
+      background: #00daff;
+      padding: 2px;
+      color: #fff;
+      position: relative;
+      border: 0;
+    }
+    button:hover {
+      cursor: pointer;
+      box-shadow: 0 0 10px #666;
+      background: #00a2be;
+    }
+  }
+
+  #canvascontainer {
+    width: 320px;
+    height: 180px;
+  }
+
+  @media only screen and (max-width: 760px) {
+    width: 90%;
+    .stats {
+      font-weight: 400;
+    }
+    .score {
+      padding: 8px 12px;
+      margin: 8px;
+    }
+
+    .attempts {
+      padding: 8px 12px;
+      margin: 8px;
+    }
+  }
+}

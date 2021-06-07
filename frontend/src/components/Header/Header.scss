@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.header {
+  display: inline-flex;
+  position: relative;
+  max-height: 56px;
+  width: 100%;
+  padding: 5px 20px;
+  color: #000000;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-title { 
+    margin: 0 auto;
+  }
+  .logout {
+    cursor: pointer;
+
+    h5 {
+      border-radius: 10px;
+      border: 2px solid $primary;
+      padding: 0 5px;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+
+    .header-title {
+      font-size: 90%;
+    }
+  }
+}
