@@ -1,10 +1,10 @@
 # To Run the project
 
-1. On root directory
+1. In root directory
 ### `npm install`
 
-2. On root directory cd to frontend folder
+2. In root directory cd to frontend folder
 ### `npm install`
 
-3. On root directory after installing all packages 
+3. after installing all packages from root folder
 ### `npm start`
